@@ -1,0 +1,53 @@
+.btn-success {
+      background-color: #0000FF;
+      border-color: #0000FF;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:hover,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success:not(:disabled):not(.disabled):focus {
+      background-color: #0000FF;
+      border-color: #0000FF;
+      box-shadow: none;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.btn-outline-light:hover,
+.btn-outline-light:not(:disabled):not(.disabled):active:focus,
+.btn-outline-light:not(:disabled):not(.disabled):focus {
+      background-color: #FF007F;
+      border-color: #FF007F;
+      box-shadow: none;
+      color: #FFF;
+}
+
+#down {
+  background-color: #0000FF;
+  height: 150%;
+}
+
+.pt-50 {
+  padding-top: 150px;
+}
+
+.pt-5 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 150px;
+}
+
+.pb-5 {
+  padding-bottom: 50px;
+}
+
+.particles {
+  position: fixed;
+  top : 0;
+  right:  0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
